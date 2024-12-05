@@ -14,18 +14,28 @@ Gemini-AI ChatApp is an Android application that allows users to interact with a
 ## Screenshots
 
 ### 1. **Home Screen**
-![Home Screen](screenshots/home_screen.png)
+
+![Home Screen](screenshots/hom.jpg)
 *Description: The user enters a question in the EditText, and the 'Submit' button is centered below.*
 
 ### 2. **Response Screen**
-![Response Screen](screenshots/response_screen.png)
+
+![Response Screen](screenshots/res.jpg)
 *Description: After submitting the question, the AI response appears in a colored box.*
 
 ### 3. **Logo and Branding**
-![Logo Screen](screenshots/logo_screen.png)
-*Description: The app displays a logo at the top of the screen for branding purposes.*
 
-> *Note: Replace the placeholder image paths with your actual screenshot paths.*
+![Logo Screen](screenshots/gemcon.png)
+*Description: The app displays a logo for branding purposes.*
+
+---
+
+## Download APK
+
+You can download the APK for Gemini-AI ChatApp from the link below:
+
+[Download Gemini-AI ChatApp APK](https://drive.google.com/file/d/1DI4RUJACyrZ98L989VIWZaVHTNK9i9hP/view?usp=sharing)
+
 
 ## Installation
 
@@ -58,4 +68,3 @@ Feel free to fork this repository and contribute by submitting pull requests for
 This project is licensed under the MIT License.
 
 ---
-
