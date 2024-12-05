@@ -34,7 +34,7 @@ Gemini-AI ChatApp is an Android application that allows users to interact with a
 
 You can download the APK for Gemini-AI ChatApp from the link below:
 
-[Download Gemini-AI ChatApp APK](https://drive.google.com/file/d/1DI4RUJACyrZ98L989VIWZaVHTNK9i9hP/view?usp=sharing)
+[Download Gemini-AI ChatApp APK](https://drive.google.com/file/d/1_Zmp_fyIxnZAkiIWMOE5V_nWiEAWWQQq/view?usp=sharing)
 
 
 ## Installation
