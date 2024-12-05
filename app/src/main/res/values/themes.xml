@@ -1,9 +1,35 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base application theme with Material 3 (DayNight) support -->
     <style name="Base.Theme.ChatgptApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your light theme -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/onPrimaryColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/onSecondaryColor</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="colorOnBackground">@color/onBackgroundColor</item>
+        <item name="colorSurface">@color/surfaceColor</item>
+        <item name="colorOnSurface">@color/onSurfaceColor</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:statusBarColor">@color/primaryColor</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
-    <style name="Theme.ChatgptApp" parent="Base.Theme.ChatgptApp" />
+    <!-- Specific theme for the app -->
+    <style name="Theme.ChatgptApp" parent="Base.Theme.ChatgptApp">
+        <!-- Add app-specific customization if needed -->
+    </style>
+
+    <!-- Modern dark theme -->
+    <style name="Base.Theme.ChatgptApp.Dark" parent="Base.Theme.ChatgptApp">
+        <item name="colorPrimary">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/onPrimaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/onSecondaryDarkColor</item>
+        <item name="android:colorBackground">@color/backgroundDarkColor</item>
+        <item name="colorOnBackground">@color/onBackgroundDarkColor</item>
+        <item name="colorSurface">@color/surfaceDarkColor</item>
+        <item name="colorOnSurface">@color/onSurfaceDarkColor</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>

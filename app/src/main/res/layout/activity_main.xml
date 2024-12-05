@@ -9,6 +9,17 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
+    <!-- Logo at the top -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gem"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="20dp" />
+
+    <!-- EditText for the question -->
     <EditText
         android:id="@+id/etQuestion"
         android:layout_width="match_parent"
@@ -17,21 +28,29 @@
         android:textSize="20sp"
         android:padding="10dp" />
 
+    <!-- Centered Button -->
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:text="Submit"
         android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/txtResponse"
+    <!-- Response inside a colored box -->
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your response will appear here!"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp"
-        android:padding="10dp" />
-
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/txtResponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your response will appear here!"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:padding="10dp" />
+    </ScrollView>
 </LinearLayout>
